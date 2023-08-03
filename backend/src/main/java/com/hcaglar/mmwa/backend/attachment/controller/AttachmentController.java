@@ -19,9 +19,7 @@ import java.io.IOException;
 import static com.hcaglar.mmwa.common.constant.PathConstant.ATTACHMENTS;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 import static org.springframework.http.MediaType.MULTIPART_FORM_DATA_VALUE;
-import static org.springframework.web.bind.annotation.RequestMethod.*;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {GET, POST, PUT})
 @RestController
 @RequestMapping(ATTACHMENTS)
 @RequiredArgsConstructor
